@@ -1,7 +1,9 @@
-const company = "Stackly";
-let employeeId = "STK-26-3907";
-let employeeName = prompt("Enter Employee Name");
+// Task 1: Employee Registration
 
-console.log("Company :", company);
+const companyName = "Stackly";
+let employeeName = prompt("Enter Employee Name");
+let employeeId = "STK-26-3907";
+
+console.log("Company Name :", companyName);
 console.log("Employee Name :", employeeName);
 console.log("Employee ID :", employeeId);
