@@ -1,6 +1,8 @@
-const bankName = "SBI";
+let username = "admin";
+let password = "12345";
 
-let userName = prompt("Enter User Name");
-
-console.log("Welcome", userName);
-console.log("Bank :", bankName);
+if (username === "admin" && password === "12345") {
+    console.log("Login Success");
+} else {
+    console.log("Invalid Credentials");
+}

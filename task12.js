@@ -1,9 +1,10 @@
-const college = "SR University";
-const studentName = "Naveen Yadav";
-const course = "B.Tech";
-const year = 3;
+let name = "Naveen";
+let email = "naveen@gmail.com";
+let phone = "9876543210";
+let city = "Hyderabad";
 
-console.log("College :", college);
-console.log("Student :", studentName);
-console.log("Course :", course);
-console.log("Year :", year);
+console.log("----- User Details -----");
+console.log("Name :", name);
+console.log("Email :", email);
+console.log("Phone :", phone);
+console.log("City :", city);

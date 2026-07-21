@@ -1,9 +1,7 @@
-const company = "Infosys";
-const employeeName = "Naveen Yadav";
-const employeeId = 1016;
-const salary = 45000;
+let mobilePrice = 25000;
+let exchange = 5000;
+let coupon = 2000;
 
-console.log("Company :", company);
-console.log("Employee :", employeeName);
-console.log("Employee ID :", employeeId);
-console.log("Salary :", salary);
+let finalAmount = mobilePrice - exchange - coupon;
+
+console.log("Final Amount :", finalAmount);

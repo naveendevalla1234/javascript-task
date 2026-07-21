@@ -1,9 +1,11 @@
-const hospital = "Yashoda Hospital";
-const patientName = "Naveen Yadav";
-const doctor = "Dr. Ramesh";
-const roomNumber = 205;
+let profile = {
+    username: "naveen123",
+    followers: 1200,
+    following: 350,
+    posts: 45,
+    verified: true
+};
 
-console.log("Hospital :", hospital);
-console.log("Patient :", patientName);
-console.log("Doctor :", doctor);
-console.log("Room Number :", roomNumber);
+console.log("Username :", profile.username);
+console.log("Followers :", profile.followers);
+console.log("Verified Status :", profile.verified);

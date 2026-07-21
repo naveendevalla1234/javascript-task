@@ -1,9 +1,5 @@
-const bank = "HDFC Bank";
-const accountHolder = "Naveen Yadav";
-const accountType = "Savings";
-const balance = 50000;
+let menu = ["Idli", "Dosa", "Poori", "Meals", "Parotta"];
 
-console.log("Bank :", bank);
-console.log("Account Holder :", accountHolder);
-console.log("Account Type :", accountType);
-console.log("Balance :", balance);
+console.log("Second Item :", menu[1]);
+console.log("Fourth Item :", menu[3]);
+console.log("Last Item :", menu[4]);

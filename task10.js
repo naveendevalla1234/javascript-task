@@ -1,10 +1,8 @@
-const websiteName = "Myntra";
+let salary = 40000;
+let experience = 3;
 
-let productName = prompt("Enter Product Name");
-let customerName = prompt("Enter Customer Name");
-let price = 2500;
+let result = (salary > 30000 && experience >= 2)
+    ? "Eligible"
+    : "Not Eligible";
 
-console.log("Website :", websiteName);
-console.log("Product :", productName);
-console.log("Customer :", customerName);
-console.log("Price :", price);
+console.log(result);

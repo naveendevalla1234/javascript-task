@@ -1,5 +1,5 @@
-let salary = 25000;
+let temperature = 38;
 
-salary = 30000;
+let result = temperature > 35 ? "Hot Day" : "Normal Weather";
 
-console.log("Salary :", salary);
+console.log(result);

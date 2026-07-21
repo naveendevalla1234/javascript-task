@@ -1,8 +1,10 @@
-const hospital = "KK Hospital";
+let employee = {
+    name: "Naveen",
+    designation: "Frontend Developer",
+    salary: 30000,
+    skills: ["HTML", "CSS", "JavaScript", "React"]
+};
 
-let patientName = "Naveen";
-let token = 25;
-
-console.log("Hospital :", hospital);
-console.log("Patient :", patientName);
-console.log("Token :", token);
+console.log("Employee Name :", employee.name);
+console.log("Designation :", employee.designation);
+console.log("Second Skill :", employee.skills[1]);

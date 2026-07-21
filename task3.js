@@ -1,10 +1,6 @@
-const restaurant = "Chills Park";
+let cart = ["Milk", "Rice", "Oil", "Sugar", "Soap"];
 
-let customerName = prompt("Enter Customer Name");
-let foodName = prompt("Enter Food Name");
-let quantity = 2;
-
-console.log("Restaurant :", restaurant);
-console.log("Customer :", customerName);
-console.log("Food :", foodName);
-console.log("Quantity :", quantity);
+console.log("First Product :", cart[0]);
+console.log("Third Product :", cart[2]);
+console.log("Last Product :", cart[4]);
+console.log("Total Products :", cart.length);

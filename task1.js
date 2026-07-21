@@ -1,9 +1,11 @@
-// Task 1: Employee Registration
+let name = "Naveen";
+let employeeId = "EMP1001";
+let department = "Frontend";
+let salary = 25000;
+let isPermanent = true;
 
-const companyName = "Stackly";
-let employeeName = prompt("Enter Employee Name");
-let employeeId = "STK-26-3907";
-
-console.log("Company Name :", companyName);
-console.log("Employee Name :", employeeName);
+console.log("Name :", name);
 console.log("Employee ID :", employeeId);
+console.log("Department :", department);
+console.log("Salary :", salary);
+console.log("Permanent :", isPermanent);

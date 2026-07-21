@@ -1,7 +1,6 @@
-var product = "Laptop";
+let ticketPrice = 180;
+let people = 5;
 
-product = "Mobile";
+let totalAmount = ticketPrice * people;
 
-var product = "Tablet";
-
-console.log("Product :", product);
+console.log("Total Amount :", totalAmount);

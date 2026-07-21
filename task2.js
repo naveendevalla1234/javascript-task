@@ -1,8 +1,11 @@
-const college = "SCSCVMV College";
+let student = {
+    name: "Naveen",
+    age: 21,
+    course: "JavaScript",
+    college: "SV College",
+    passed: true
+};
 
-let studentName = prompt("Enter Student Name");
-let course = prompt("Enter Course");
-
-console.log("College :", college);
-console.log("Student :", studentName);
-console.log("Course :", course);
+console.log("Student Name :", student.name);
+console.log("Course :", student.course);
+console.log("Passed Status :", student.passed);

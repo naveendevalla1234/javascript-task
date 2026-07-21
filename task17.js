@@ -1,9 +1,8 @@
-const library = "Central Library";
-const bookName = "JavaScript Basics";
-const studentName = "Naveen Yadav";
-const bookId = 1701;
+let experience = 5;
+let performance = true;
 
-console.log("Library :", library);
-console.log("Book Name :", bookName);
-console.log("Student :", studentName);
-console.log("Book ID :", bookId);
+if (experience >= 5 && performance === true) {
+    console.log("Promotion Approved");
+} else {
+    console.log("Promotion Pending");
+}

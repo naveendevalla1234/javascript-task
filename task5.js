@@ -1,10 +1,6 @@
-const theatre = "Sandhya Theatre";
+let basicSalary = 25000;
+let bonus = 5000;
 
-let movieName = prompt("Enter Movie Name");
-let customerName = prompt("Enter Customer Name");
-let seatNumber = 14;
+let totalSalary = basicSalary + bonus;
 
-console.log("Theatre :", theatre);
-console.log("Movie :", movieName);
-console.log("Customer :", customerName);
-console.log("Seat Number :", seatNumber);
+console.log("Total Salary :", totalSalary);

@@ -1,8 +1,5 @@
-const gymName = "Power Gym";
+let number = 25;
 
-let memberName = prompt("Enter Member Name");
-let membershipFee = 1500;
+let result = number % 2 === 0 ? "Even Number" : "Odd Number";
 
-console.log("Gym :", gymName);
-console.log("Member :", memberName);
-console.log("Membership Fee :", membershipFee);
+console.log(result);

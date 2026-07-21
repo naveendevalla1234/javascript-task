@@ -1,10 +1,8 @@
-const shopName = "Naidu Mobile Shop";
+let productPrice = 4500;
+let gst = 18;
 
-let customerName = prompt("Enter Customer Name");
-let mobileNumber = prompt("Enter Mobile Number");
-let price = 25000;
+let gstAmount = (productPrice * gst) / 100;
+let finalAmount = productPrice + gstAmount;
 
-console.log("Shop :", shopName);
-console.log("Customer :", customerName);
-console.log("Mobile Number :", mobileNumber);
-console.log("Price :", price);
+console.log("GST Amount :", gstAmount);
+console.log("Final Amount :", finalAmount);

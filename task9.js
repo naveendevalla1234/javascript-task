@@ -1,8 +1,5 @@
-const travelsName = "BSRM Travels";
+let age = 22;
 
-let passengerName = prompt("Enter Passenger Name");
-let seatNumber = 12;
+let result = age >= 18 ? "Eligible for Vote" : "Not Eligible";
 
-console.log("Travels :", travelsName);
-console.log("Passenger :", passengerName);
-console.log("Seat Number :", seatNumber);
+console.log(result);
