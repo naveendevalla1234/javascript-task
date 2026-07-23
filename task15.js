@@ -1,6 +1,11 @@
-let accountBalance = 25000;
-let withdraw = 8000;
+let status = "Present";
 
-let remainingBalance = accountBalance - withdraw;
-
-console.log("Remaining Balance :", remainingBalance);
+if (status === "Present") {
+    console.log("Working");
+} else if (status === "Leave") {
+    console.log("Leave Approved");
+} else if (status === "Absent") {
+    console.log("Salary Deduction");
+} else {
+    console.log("Invalid Status");
+}

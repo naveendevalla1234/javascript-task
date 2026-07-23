@@ -1,8 +1,13 @@
-let price = 5000;
-let discount = 10;
+let salary = 55000;
+let bonus;
 
-let discountAmount = (price * discount) / 100;
-let finalPrice = price - discountAmount;
+if (salary > 50000) {
+    bonus = 10000;
+} else if (salary > 30000) {
+    bonus = 5000;
+} else {
+    bonus = 2000;
+}
 
-console.log("Discount Amount :", discountAmount);
-console.log("Final Price :", finalPrice);
+console.log("Salary :", salary);
+console.log("Bonus :", bonus);

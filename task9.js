@@ -1,5 +1,7 @@
-let age = 22;
+let pin = "1234";
 
-let result = age >= 18 ? "Eligible for Vote" : "Not Eligible";
-
-console.log(result);
+if (pin.length === 4) {
+    console.log("Login Success");
+} else {
+    console.log("Invalid PIN");
+}

@@ -1,5 +1,7 @@
-let temperature = 38;
+let num = Number("100");
+let bool = Boolean("true");
+let str = String(200);
 
-let result = temperature > 35 ? "Hot Day" : "Normal Weather";
-
-console.log(result);
+console.log(num);
+console.log(bool);
+console.log(str);

@@ -1,8 +1,5 @@
-let experience = 5;
-let performance = true;
+let products = ["Laptop", "Mouse", "Keyboard", "Monitor"];
 
-if (experience >= 5 && performance === true) {
-    console.log("Promotion Approved");
-} else {
-    console.log("Promotion Pending");
+for (let i = 0; i < products.length; i++) {
+    console.log((i + 1), products[i]);
 }

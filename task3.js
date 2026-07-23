@@ -1,6 +1,12 @@
-let cart = ["Milk", "Rice", "Oil", "Sugar", "Soap"];
+let balance = 10000;
+let withdraw = 4000;
 
-console.log("First Product :", cart[0]);
-console.log("Third Product :", cart[2]);
-console.log("Last Product :", cart[4]);
-console.log("Total Products :", cart.length);
+if (withdraw <= balance) {
+    balance = balance - withdraw;
+
+    console.log("Transaction Success");
+    console.log("Withdraw Amount :", withdraw);
+    console.log("Remaining Balance :", balance);
+} else {
+    console.log("Insufficient Balance");
+}

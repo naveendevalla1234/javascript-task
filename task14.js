@@ -1,5 +1,18 @@
-let menu = ["Idli", "Dosa", "Poori", "Meals", "Parotta"];
+let patientType = "Emergency";
 
-console.log("Second Item :", menu[1]);
-console.log("Fourth Item :", menu[3]);
-console.log("Last Item :", menu[4]);
+switch (patientType) {
+    case "Emergency":
+        console.log("Token 1");
+        break;
+
+    case "Senior Citizen":
+        console.log("Priority");
+        break;
+
+    case "Normal":
+        console.log("Regular Queue");
+        break;
+
+    default:
+        console.log("Invalid Patient Type");
+}

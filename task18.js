@@ -1,6 +1,9 @@
-let ticketPrice = 180;
-let people = 5;
+let employee = {
+    name: "Rahul",
+    role: "Developer",
+    salary: 50000
+};
 
-let totalAmount = ticketPrice * people;
-
-console.log("Total Amount :", totalAmount);
+for (let key in employee) {
+    console.log(employee[key]);
+}

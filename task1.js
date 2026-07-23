@@ -1,11 +1,8 @@
-let name = "Naveen";
-let employeeId = "EMP1001";
-let department = "Frontend";
-let salary = 25000;
-let isPermanent = true;
+let username = "admin";
+let password = "12345";
 
-console.log("Name :", name);
-console.log("Employee ID :", employeeId);
-console.log("Department :", department);
-console.log("Salary :", salary);
-console.log("Permanent :", isPermanent);
+if (username === "admin" && password === "12345") {
+    console.log("Login Successful");
+} else {
+    console.log("Invalid Username or Password");
+}

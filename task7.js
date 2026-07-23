@@ -1,5 +1,7 @@
-let number = 25;
+let age = 20;   // Change the age if needed
 
-let result = number % 2 === 0 ? "Even Number" : "Odd Number";
-
-console.log(result);
+if (age >= 18) {
+    console.log("Eligible");
+} else {
+    console.log("Not Eligible");
+}

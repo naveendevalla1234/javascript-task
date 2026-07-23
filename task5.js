@@ -1,6 +1,18 @@
-let basicSalary = 25000;
-let bonus = 5000;
+let signal = "green";
 
-let totalSalary = basicSalary + bonus;
+switch (signal) {
+    case "red":
+        console.log("Stop");
+        break;
 
-console.log("Total Salary :", totalSalary);
+    case "yellow":
+        console.log("Ready");
+        break;
+
+    case "green":
+        console.log("Go");
+        break;
+
+    default:
+        console.log("Invalid");
+}

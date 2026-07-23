@@ -1,8 +1,8 @@
-let username = "admin";
-let password = "12345";
+let a = 10;
+let b = 20;
 
-if (username === "admin" && password === "12345") {
-    console.log("Login Success");
+if (a > b) {
+    console.log(a);
 } else {
-    console.log("Invalid Credentials");
+    console.log(b);
 }

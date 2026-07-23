@@ -1,8 +1,7 @@
-let salary = 40000;
-let experience = 3;
+let stock = 0;
 
-let result = (salary > 30000 && experience >= 2)
-    ? "Eligible"
-    : "Not Eligible";
-
-console.log(result);
+if (stock == 0) {
+    console.log("Out of Stock");
+} else {
+    console.log("Available");
+}

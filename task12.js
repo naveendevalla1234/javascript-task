@@ -1,10 +1,13 @@
-let name = "Naveen";
-let email = "naveen@gmail.com";
-let phone = "9876543210";
-let city = "Hyderabad";
+let units = 150;
+let bill;
 
-console.log("----- User Details -----");
-console.log("Name :", name);
-console.log("Email :", email);
-console.log("Phone :", phone);
-console.log("City :", city);
+if (units <= 100) {
+    bill = units * 2;
+} else if (units <= 200) {
+    bill = units * 4;
+} else {
+    bill = units * 6;
+}
+
+console.log("Units :", units);
+console.log("Total Bill : ₹" + bill);

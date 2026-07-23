@@ -1,11 +1,15 @@
-let student = {
-    name: "Naveen",
-    age: 21,
-    course: "JavaScript",
-    college: "SV College",
-    passed: true
-};
+let amount = 6500;
+let discount = 0;
+let finalAmount = 0;
 
-console.log("Student Name :", student.name);
-console.log("Course :", student.course);
-console.log("Passed Status :", student.passed);
+if (amount >= 5000) {
+    discount = amount * 20 / 100;
+    finalAmount = amount - discount;
+
+    console.log("20% Discount Applied");
+    console.log("Discount Amount :", discount);
+    console.log("Final Amount :", finalAmount);
+} else {
+    console.log("No Discount");
+    console.log("Final Amount :", amount);
+}

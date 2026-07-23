@@ -1,7 +1,15 @@
-let mobilePrice = 25000;
-let exchange = 5000;
-let coupon = 2000;
+let rice = 500;
+let sugar = 300;
+let oil = 250;
 
-let finalAmount = mobilePrice - exchange - coupon;
+let total = rice + sugar + oil;
 
-console.log("Final Amount :", finalAmount);
+console.log("Total Before Discount:", total);
+
+if (total > 1000) {
+    let discount = total * 0.10;
+    total = total - discount;
+    console.log("10% Discount Applied");
+}
+
+console.log("Final Total:", total);

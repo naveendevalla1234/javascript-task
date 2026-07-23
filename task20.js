@@ -1,16 +1,19 @@
-let employee = {
-    empCode: "EMP1001",
-    name: "Rahul",
-    department: "Frontend",
-    designation: "Associate Software Engineer",
-    salary: 28000,
-    skills: ["HTML", "CSS", "JavaScript", "React"],
-    permanent: true
-};
+let telugu = 80;
+let english = 75;
+let maths = 90;
 
-console.log("Employee Code :", employee.empCode);
-console.log("Employee Name :", employee.name);
-console.log("Department :", employee.department);
-console.log("Salary :", employee.salary);
-console.log("Last Skill :", employee.skills[3]);
-console.log("Permanent Status :", employee.permanent);
+let total = telugu + english + maths;
+let average = total / 3;
+
+console.log("Total:", total);
+console.log("Average:", average);
+
+if (average >= 90) {
+    console.log("Grade: A");
+} else if (average >= 75) {
+    console.log("Grade: B");
+} else if (average >= 50) {
+    console.log("Grade: C");
+} else {
+    console.log("Grade: Fail");
+}

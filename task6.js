@@ -1,8 +1,14 @@
-let productPrice = 4500;
-let gst = 18;
+let orderAmount = 750;
+let delivery = 0;
 
-let gstAmount = (productPrice * gst) / 100;
-let finalAmount = productPrice + gstAmount;
+if (orderAmount >= 1000) {
+    delivery = 0;
+} else {
+    delivery = 80;
+}
 
-console.log("GST Amount :", gstAmount);
-console.log("Final Amount :", finalAmount);
+let total = orderAmount + delivery;
+
+console.log("Order Amount :", orderAmount);
+console.log("Delivery :", delivery);
+console.log("Total :", total);
