@@ -1,15 +1,15 @@
-let amount = 6500;
-let discount = 0;
-let finalAmount = 0;
+// Employee Registration Form
 
-if (amount >= 5000) {
-    discount = amount * 20 / 100;
-    finalAmount = amount - discount;
+let employeeName = "Naveen";
+let employeeId = 101;
+let department = "IT";
+let salary = 30000;
+let city = "Hyderabad";
 
-    console.log("20% Discount Applied");
-    console.log("Discount Amount :", discount);
-    console.log("Final Amount :", finalAmount);
-} else {
-    console.log("No Discount");
-    console.log("Final Amount :", amount);
-}
+console.log("Employee Details");
+console.log("----------------------");
+console.log("Employee Name :", employeeName);
+console.log("Employee ID   :", employeeId);
+console.log("Department    :", department);
+console.log("Salary        :", salary);
+console.log("City          :", city);

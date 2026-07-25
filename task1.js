@@ -1,8 +1,11 @@
-let username = "admin";
-let password = "12345";
+// Student Registration Form
 
-if (username === "admin" && password === "12345") {
-    console.log("Login Successful");
-} else {
-    console.log("Invalid Username or Password");
-}
+let studentName = "Naveen";
+let age = 22;
+let department = "B.Tech";
+let cgpa = 8.5;
+
+console.log("Student Name:", studentName);
+console.log("Age:", age);
+console.log("Department:", department);
+console.log("CGPA:", cgpa);

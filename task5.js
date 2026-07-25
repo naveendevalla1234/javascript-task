@@ -1,18 +1,11 @@
-let signal = "green";
+// Even or Odd Number
 
-switch (signal) {
-    case "red":
-        console.log("Stop");
-        break;
+let number = 15;
 
-    case "yellow":
-        console.log("Ready");
-        break;
+console.log("Number :", number);
 
-    case "green":
-        console.log("Go");
-        break;
-
-    default:
-        console.log("Invalid");
+if (number % 2 === 0) {
+    console.log(number + " is Even");
+} else {
+    console.log(number + " is Odd");
 }
