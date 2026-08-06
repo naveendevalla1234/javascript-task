@@ -1,13 +1,12 @@
-// Task 1 - Student Registration
+// Task 1: Student Registration System
 
-let studentName = "Rahul";
-let department = "CSE";
-let cgpa = 8.6;
-
-let status = cgpa >= 8 ? "Eligible" : "Not Eligible";
+let studentName = "Naveen";
+let age = 22;
+let course = "JavaScript";
+let college = "SCSCVMV College";
 
 console.log("===== Student Registration =====");
 console.log("Student Name :", studentName);
-console.log("Department   :", department);
-console.log("CGPA         :", cgpa);
-console.log("Status       :", status);
+console.log("Age          :", age);
+console.log("Course       :", course);
+console.log("College      :", college);
